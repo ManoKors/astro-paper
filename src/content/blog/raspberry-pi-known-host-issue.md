@@ -1,6 +1,6 @@
 ---
-author: Mano Kors
-pubDatetime: 2022-09-23T15:22:00Z
+author: Sat Naing
+pubDatetime: 2024-08-08T15:22:00Z
 modDatetime: 2023-12-21T09:12:47.400Z
 title: How to Resolve "DNS Spoofing Detected" Error on macOS and Raspberry Pi 
 slug: resolve-dns-spoofing-detected-error-on-macos-and-raspberry-pi
@@ -8,6 +8,7 @@ featured: true
 draft: false
 tags:
   - docs
+  - raspberry-pi
 description:
   Some rules & recommendations for creating or adding new posts using AstroPaper
   theme.
