@@ -2,8 +2,8 @@
 author: Sat Naing
 pubDatetime: 2024-07-07T15:22:00Z
 modDatetime: 2023-12-21T09:12:47.400Z
-title: How to Resolve "DNS Spoofing Detected" Error on macOS and Raspberry Pi 
-slug: resolve-dns-spoofing-detected-error-on-macos-and-raspberry-pi
+title: How to Resolve DNS Spoofing Detected-Error on macOS and Raspberry Pi 
+slug: resolve-dns-spoofing
 featured: true
 draft: false
 tags:
