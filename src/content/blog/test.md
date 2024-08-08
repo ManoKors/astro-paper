@@ -36,6 +36,6 @@ and its host key have changed at the same time.
 IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
 Someone could be eavesdropping on you right now (man-in-the-middle attack)!
 It is also possible that a host key has just been changed.
-´´´
+```
 
 It indicates that the SSH client has detected a change in the host key of the device you’re trying to connect to (pi.local in this case). This is often caused by reinstalling the Raspberry Pi OS, changing its hostname or IP address, or assigning the hostname to a different device.
