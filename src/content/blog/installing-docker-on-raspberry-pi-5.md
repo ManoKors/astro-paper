@@ -18,3 +18,46 @@ The first thing you want to do is to uninstall all conflicting packages that mig
 ```plaintext
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
+
+
+The Output looks like this:
+
+```plaintext
+mano@pi:~$ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+[sudo] password for mano: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'docker.io' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'docker-doc' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'docker-compose' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'docker-compose-v2' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'podman-docker' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'containerd' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package 'runc' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
+````
