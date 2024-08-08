@@ -1,7 +1,7 @@
 ---
 author: Mano Kors
 pubDatetime: 2024-08-08T10:00:00Z
-title: How to Docker on macOS and Raspberry Pi 5
+title: How to install Docker on macOS and Raspberry Pi 5
 slug: installing-docker-on-raspberry-pi-5
 featured: true
 draft: false
@@ -61,3 +61,4 @@ Reading state information... Done
 Package 'runc' is not installed, so not removed
 0 upgraded, 0 newly installed, 0 to remove and 94 not upgraded.
 ````
+
